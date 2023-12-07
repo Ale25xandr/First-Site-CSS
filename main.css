@@ -1,0 +1,46 @@
+header{
+            background: black;
+        }
+
+        .Logo {
+        padding: 0px 20px;
+        font-family: arial;
+        }
+
+        .Logo, .Navigations{
+        color: white;
+        display: inline-block;
+        }
+
+        .Navigations{
+        float: right;
+        padding: 20px 20px;
+        }
+
+        .Navigations li{
+        display: inline-block;
+        }
+
+        .Navigations a{
+        font-family: arial;
+        font-size: 20px;
+        padding: 10px;
+        color: white;
+        text-decoration-line: none;
+        }
+
+        .Navigations a:hover{
+    background-color: green;
+    color: #101010;
+        }
+
+        .wrap{
+        display: flex;
+        justify-content: center;}
+
+
+        .container img{
+        width: 300px;
+        height: 300px;
+        float: left;
+        }
